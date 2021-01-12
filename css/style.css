@@ -1,0 +1,302 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+}
+
+/********************** Header Start *********************/
+
+.header-section {
+    padding: 20px 0px;
+}
+
+.header-section .bg-light {
+    background: transparent !important;
+}
+
+.header-section ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px  !important;
+    margin-left: 15px;
+    display: block;
+    color: #000000 !important; 
+}
+
+
+/* Bootstrap mobile menu edit start */
+.navbar-collapse {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+/* Bootstrap mobile menu edit end */
+
+
+.header-section ul li a:hover {
+    color: #15A4FA !important;
+}
+/********************** Header End *********************/
+
+
+
+/********************** Banner-Section Start *********************/
+
+.banner-section {
+    background: url("../images/bg.png") center top no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 230px;
+}
+
+.banner-section .fa-angle-down {
+    transition: .7s;
+}
+
+.banner-section .fa-angle-down:hover {
+    color: #15A4FA;
+    font-size: 80px;
+}
+
+.banner-section h1 {
+    font-size: 100px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner-section p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 30px 0px 60px 0px;
+}
+
+.banner-section a {
+    margin-bottom: 170px;
+}
+
+.banner-section .btn-outline-primary {
+    color: #ffffff;
+    border: 1px solid #15A4FA;
+    border-radius: 3px;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.banner-section .btn-outline-primary:hover {
+    background: #15A4FA;
+}
+
+.banner-section .fa-angle-down {
+    color: #ffffff;
+    font-size: 40px;
+    display: block;margin-bottom: 70px;
+}
+
+/********************** Banner-Section End *********************/
+
+
+
+/********************** Details-Section Start *********************/
+
+.details-section {
+    background: #F7F8FA;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.details-section h1 {
+    font-weight: 700;
+}
+
+.details-section p {
+    font-size: 19px;
+    color: #9f9f9f;
+    max-width: 1110px;
+    margin: auto;
+    line-height: 34px;
+    letter-spacing: .8px;
+}
+/********************** Details-Section End *********************/
+
+/********************** Feature-Section Start *********************/
+.feature-section {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.feature-section .feature-inner {
+
+}
+
+.feature-section .feature-inner img {
+
+}
+
+.feature-section .feature-inner h2 {
+    font-size: 24px;
+    margin: 25px 0px 10px 0px;
+}
+
+.feature-section .feature-inner p {
+    width: 290px;
+    margin: auto;
+    color: #ababab;
+    font-size: 16px;
+}
+/********************** Feature-Section End *********************/
+
+
+
+/********************** Showcase-Section Start *********************/
+.showcase-section {
+    background: #F7F8FA;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.showcase-section h1 {
+    text-align: center;
+}
+
+.showcase-section p {
+    color: #ababab;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.showcase-section .col-xl-4 {
+    padding: 0px;
+}
+
+.showcase-section img {
+    width: -webkit-fill-available;
+    padding: 20px;
+}
+/********************** Showcase-Section End *********************/
+
+
+/********************** Form-Section Start *********************/
+.form-section {
+    background: url("../images/BG2.png") center center no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.form-section .title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-section .title h1 {
+    color: #ffffff;
+}
+.form-section .title p {
+    color: #9c9c9c;
+}
+
+.form-section .form-inner {
+
+}
+
+.form-section .form-inner form {
+    max-width: 550px;
+    margin: auto;
+}
+
+.form-section .form-inner form .form-control-lg {
+    padding: 16px 19px;
+    font-size: 15px;
+    border: 1px solid #808080;
+    border-radius: 3px;
+    background: transparent;
+}
+
+.form-section .form-inner form .form-control {
+    background: transparent;
+    font-size: 15px;
+    border: 1px solid #808080;
+    padding: 16px 19px;
+}
+
+.form-section .form-inner form .form-check-input[type=checkbox] {
+    border-radius: 3px;
+    border: 1px solid #808080;
+    background: #808080;
+    display: inline-block;
+    padding: 7px;
+}
+
+.form-section .form-inner form .form-check {
+    display: inline-block;
+}
+
+.form-section .form-inner form .form-check label{
+    color: #ffffff;
+    padding-left: 6px;
+    letter-spacing: 0.5px;
+}
+
+.form-section .form-inner form .btn-outline-primary {
+    float: right;
+    color: #15A4FA;
+    border: 1px solid #15A4FA;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.form-section .form-inner form .btn-outline-primary:hover {
+    background-color: #15A4FA;
+    color: #ffffff;
+}
+/********************** Form-Section End *********************/
+
+
+/********************** Footer-Section Start *********************/
+footer {
+
+}
+
+footer ul {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 5px;
+}
+
+footer ul li a {
+
+}
+
+footer ul li a img {
+
+}
+
+footer p {
+    padding: 39px 0px;
+    margin: 0px;
+}
+/********************** Footer-Section End *********************/
+
+
+
+
+
+
+
+
+
+
+
+
+

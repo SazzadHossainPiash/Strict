@@ -1,0 +1,139 @@
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+}
+
+
+
+
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /********************** Banner-Section Start *********************/
+    .banner-section{
+        padding-top: 150px;
+    }
+
+    .banner-section h1 {
+        font-size: 60px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 0px;
+    }  
+
+    .banner-section img {
+        max-width: 250px;
+        margin: auto;
+    } 
+
+    .banner-section p {
+        font-size: 16px;
+        padding: 20px 0px 40px 0px;
+    }
+    /********************** Banner-Section End *********************/
+
+    /********************** Details-Section Start *********************/
+    .details-section {
+        padding: 70px 0px;
+    }
+
+    
+    .details-section p {
+        font-size: 17px;
+        color: #9f9f9f;
+        max-width: 450px;
+        margin: auto;
+        line-height: 34px;
+        letter-spacing: .8px;
+        padding-top: 20px;
+    }
+    /********************** Details-Section End *********************/
+
+    
+    /********************** Feature-Section Start *********************/
+    .feature-section .feature-inner {
+        margin: 50px 0px;
+    }
+    /********************** Feature-Section End *********************/
+
+
+    /********************** Showcase-Section Start *********************/
+    .showcase-section img {
+        width: inherit;
+    }
+    /********************** Showcase-Section End *********************/
+}
+
+
+
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /********************** Banner-Section Start *********************/
+    .banner-section{
+        padding-top: 150px;
+    }
+
+    .banner-section h1 {
+        font-size: 40px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 0px;
+    }  
+
+    .banner-section img {
+        max-width: 200px;
+        margin: auto;
+    } 
+
+    .banner-section p {
+        font-size: 16px;
+        padding: 10px 0px 20px 0px;
+    }
+    /********************** Banner-Section End *********************/
+
+    /********************** Details-Section Start *********************/
+    .details-section {
+        padding: 70px 0px;
+    }
+
+    
+    .details-section p {
+        font-size: 17px;
+        color: #9f9f9f;
+        max-width: 300px;
+        margin: auto;
+        line-height: 34px;
+        letter-spacing: .8px;
+        padding-top: 20px;
+    }
+    /********************** Details-Section End *********************/
+
+
+    /********************** Feature-Section Start *********************/
+    .feature-section .feature-inner {
+        margin: 30px 0px;
+    }
+    /********************** Feature-Section End *********************/
+
+    /********************** Showcase-Section Start *********************/
+    .showcase-section img {
+        width: inherit;
+    }
+    /********************** Showcase-Section End *********************/
+}
