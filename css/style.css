@@ -10,6 +10,14 @@ body {
     font-size: 14px;
 }
 
+/* Animation start */
+
+.feature-section .animate__animated.animate__backInUp {
+    --animate-delay: 2s;
+}
+
+/* Animation End */
+
 /********************** Header Start *********************/
 
 .header-section {
